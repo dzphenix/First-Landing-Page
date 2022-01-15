@@ -227,13 +227,13 @@
 
 /* Add padding around the footer as well */
 
-footer  {
+footer .flex {
   background-color: #1f2937;
-  padding: 20px 10px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: stretch;
   height: 100%;
+
 }
 
 /* Sets all link texts to white and puts margin to the left and right */
