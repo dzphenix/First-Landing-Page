@@ -113,6 +113,57 @@
     
   }
 
+  .testimonial {
+    height: auto;
+    
+    background-color: #E5E7EB;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: left;
+  }
+
+  .testimonial p {
+  
+    color : #1F2937;
+    font-family: "roboto", sans-serif;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    
+   
+  }
+
+  .testimonial h3 {
+  
+    color : #1F2937;
+    
+    font-size: 24px;
+    font-style: italic;
+    text-align: right;
+    
+   
+  }
+  
+  .callto {
+
+    padding: 30px;
+    border-radius: 8px;
+    background-color: #3882F6;
+    margin: 100px;
+    align-content: space-between;
+    
+  }
+
+  .callto p {
+    margin-left: 50px;
+  }
+  .callto h3{
+    margin-left: 50px;
+    font-weight: lighter;
+  }
+
   /* Adds margin below the text */
 .showcase p {
   /*margin-bottom: 30px;*/
@@ -127,12 +178,22 @@
   margin-left: -50px;
 }
 
+.infos p {
+  color: #6a6e77;
+  /*font-family: "Times New Roman", Times, serif;*/
+}
+.infos h1 {
+  color: #1F2937;
+  font-size: 36px;
+  padding-bottom: 15px;
+}
 /* Adds some padding on the form content */
 
 .grid {
   overflow: visible;
   display: grid;
   grid-template-columns: 60% 40%;
+  align-items: center;
 }
 
 .grid-item-1,
@@ -154,11 +215,24 @@
     margin-left: 50px;
 }
 
+.btn-white {
+  border-radius: 6px;
+  padding: 10px 28px;
+  background: transparent;
+  border:  2px solid black;
+  border-color: white;
+  /*margin-left: 14px;*/
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+  margin-left: 200px;
+}
+
 .btn {
   border-radius: 6px;
-  padding: 12px 20px;
-  background: #3882f6;
-  border: none;
+  padding: 10px 28px;
+  background: #3882F6;
   /*margin-left: 14px;*/
   color: white;
   font-size: 16px;
@@ -166,7 +240,6 @@
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
   margin-left: 50px;
 }
-
 
 
 /* Change typeface and its size */
@@ -210,19 +283,19 @@
 }
 
 /* Add some padding around the container. Align text centrally */
-.stats {
+.infos {
   padding: 45px 50px;
   text-align: center;
 }
+.infos img {
+  border-radius: 8px;
+}
 
 /* Set margin and width */
-.stat {
+.info {
   margin: 0 30px;
   text-align: center;
   width: 800px;
-}
-.stats .fa {
-  color: purple;
 }
 
 /* Add padding around the footer as well */
@@ -233,16 +306,19 @@ footer .flex {
   justify-content: space-between;
   align-items: stretch;
   height: 100%;
-
+  padding: 0 30px;
+  height: 70px;
 }
 
 /* Sets all link texts to white and puts margin to the left and right */
 
-footer a {
-  color: white;
+footer p {
+  
+  color: #E5E7EB;
+  padding: 25px;
   margin: 0 10px;
+
 }
-footer a:hover {
-  color: #9867C5;
-  border-bottom: 2px solid #9867C5;
-}
+
+
+
